@@ -1,0 +1,27 @@
+{
+  "name": "confidential-payroll",
+  "version": "1.0.0",
+  "description": "Privacy-preserving payroll system using Zama Protocol FHE",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network zamaTestnet",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": ["zama", "fhe", "payroll", "confidential", "blockchain"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@fhevm/solidity": "^0.7.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "hardhat": "^2.19.0",
+    "ethers": "^6.10.0",
+    "dotenv": "^16.3.1",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "chai": "^4.3.10"
+  }
+}

@@ -1,0 +1,27 @@
+node_modules/
+.env
+cache/
+artifacts/
+coverage/
+.coverage_cache/
+.coverage_contracts/
+typechain-types/
+deployment.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
