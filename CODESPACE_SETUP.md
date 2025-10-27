@@ -33,10 +33,10 @@ npm run dev
 
 ## 🌐 Chain Configuration
 
-Your app is configured for **Zama Testnet**:
+Your app is configured for **Zama fhEVM Devnet**:
 - Chain ID: 8009
-- RPC URL: https://devnet.zama.ai
-- Explorer: https://explorer-testnet.zama.ai
+- RPC URL: https://rpc.fhevm.dev.zama.ai
+- Explorer: https://explorer.fhevm.dev.zama.ai
 
 ## 🔑 Get Testnet Tokens
 

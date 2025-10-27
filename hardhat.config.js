@@ -17,7 +17,7 @@ module.exports = {
       chainId: 1337,
     },
     zamaTestnet: {
-      url: "https://devnet.zama.ai",
+      url: "https://rpc.fhevm.dev.zama.ai",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       chainId: 8009,
     },

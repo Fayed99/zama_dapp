@@ -24,10 +24,10 @@ export const CONTRACT_ABI = [
 
 export const NETWORK_CONFIG = {
   8009: {
-    name: "Zama Testnet",
-    rpcUrl: "https://devnet.zama.ai",
+    name: "Zama fhEVM Devnet",
+    rpcUrl: "https://rpc.fhevm.dev.zama.ai",
     chainId: "0x1F49", // 8009 in hex
     symbol: "ZAMA",
-    explorer: "https://explorer.zama.ai"
+    explorer: "https://explorer.fhevm.dev.zama.ai"
   }
 };

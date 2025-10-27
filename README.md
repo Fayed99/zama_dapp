@@ -206,18 +206,18 @@ getPaymentHistoryCount(address)         // Get payment count
 
 ## 🌐 Network Configuration
 
-### Zama Testnet
+### Zama fhEVM Devnet
 - **Chain ID**: 8009
-- **RPC URL**: https://devnet.zama.ai
-- **Explorer**: https://explorer.zama.ai
+- **RPC URL**: https://rpc.fhevm.dev.zama.ai
+- **Explorer**: https://explorer.fhevm.dev.zama.ai
 
 ### Adding to MetaMask
 
 1. Open MetaMask
 2. Click network dropdown → "Add Network"
-3. Enter Zama testnet details:
-   - Network Name: Zama Testnet
-   - RPC URL: https://devnet.zama.ai
+3. Enter Zama devnet details:
+   - Network Name: Zama fhEVM Devnet
+   - RPC URL: https://rpc.fhevm.dev.zama.ai
    - Chain ID: 8009
    - Currency Symbol: ZAMA
 
